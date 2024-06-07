@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- custom theme -->
+    <meta
+      name="description"
+      content="M/S S.M. Hydro Blasting as the only Hydro blast / Wet Sand Blast Cleaning , H.P. Jet Cleaning Condenser, Oil Cooler, Air Coller, Boiler & Retubing of Condenser & Heat Exchangers H.P. Jet Pump & Spare Part Suppliers Company."
+    />
+    <meta
+      name="keywords"
+      content="SM Hydro Blasting , servicing H.P. Jet Cleaning Condenser, Oil Cooler, Air Coller, Boiler & Retubing of Condenser & Heat Exchangers H.P. Jet Pump & Spare Part Suppliers."
+    />
+    <meta name="author" content="M/S S.M. Hydro Blasting." />
+    <title>S.M. Hydro Blasting | Contact</title>
+    <link rel="shortcut icon" href="./image/favcion.ico" tyspe="image/x-icon" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://smtpjs.com/v3/smtp.js" defer>
+    </script>
+    <script src="./js/app.js" defer></script>
+    <script src="./js/contact.js" defer></script>
+  </head>
+  <body>
+      <div class="loader">
+        <h1>0%</h1>
+      </div>
+      <!-- header -->
+      <header>
+        <!-- navBar -->
+        <nav class="navBar">
+          <div class="logo">
+            <a href="./index.html">
+              <img src="./image/smLogo.png" alt="" />
+              <span>Hydro<br /><span class="logoBlasting">Blasting</span></span>
+            </a>
+          </div>
+          <ul class="navList">
+            <li>
+              <a href="./index.html">Home</a>
+            </li>
+            <li><a href="./about.html">About Us</a></li>
+            <li>
+              <a href="./services.html">Services</a>
+            </li>
+            <li>
+              <a href="./gallery.html">Image Gallery</a
+              >
+            </li>
+            <li>
+              <a href="./video.html">Video</a>
+            </li>
+          </ul>
+          <ul class="contactNavList">
+            <li class="navContact">
+              <a href="./contact.html">Contact Us</a>
+            </li>
+          </ul>
+  
+          <div class="hamBurger">
+            <i class="ri-menu-line"></i>
+          </div>
+        </nav>
+        <aside>
+          <div class="logo logoHamCont">
+            <div>
+              <a href="index.html">
+                <img src="image/smLogo.png" alt="" />
+                <span>Hydro<br /><span class="logoBlasting">Blasting</span></span>
+              </a>
+            </div>
+            <div class="hamBurger">
+              <i class="ri-close-fill"></i>
+            </div>
+          </div>
+          <ul class="navList">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li>
+              <a href="./services.html">Services</a>
+            </li>
+            <li>
+              <a href="./gallery.html">Image Gallery</a>
+            </li>
+            <li>
+              <a href="./video.html">Video</a>
+            </li>
+          </ul>
+          <ul class="contactNavList">
+            <li class="navContact">
+              <a href="./contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </aside>
+      </header>
+      <!-- main -->
+      <main>
+        <div class="topTag" id="contactTag">
+          <h3>CONTACT US</h3>
+          <h2>WE WANT TO HEAR FROM YOU</h2>
+        </div>
+        <!-- <hr class="break"> -->
+        <section class="contactSection">
+          <div class="contact intial-pad">
+            <div class="contactUs">
+              <h2>CONTACT US</h2>
+              <hr class="hrstyle" />
+              <div class="mainContact">
+                <div class="mainContactInner">
+                  <div class="icon"><i class="ri-map-pin-line"></i></div>
+                  <p>
+                    Matkuriya Homes, Flat No. - 604 (5th Floor), Katras Road Near
+                    Chhota Gurudwara, Katras Road, Dhanbad - 826001
+                  </p>
+                </div>
+                <div class="mainContactInner">
+                  <div class="icon"><i class="ri-mail-line"></i></div>
+                  <p>smhydroblasting@yahoo.in, sagarmaharaj78@gmail.com</p>
+                </div>
+                <div class="mainContactInner">
+                  <div class="icon"><i class="ri-phone-line"></i></div>
+                  <p>+917903818319, +919431513609</p>
+                </div>
+              </div>
+            </div>
+            
+            <form action="#" onsubmit="sendEmail(); reset(); return false;">
+              <h2 class="grid-1">FILL OUT THE FORM TO GET IN TOUCH.</h2>
+              <label class="grid-2" for="email">Email</label>
+              <input class="grid-3" type="email" name="email" id="email" required/>
+              <label class="grid-4" for="firstName">First Name</label>
+              <input class="grid-5" type="text" name="firstName" id="firstName" required/>
+              <label class="grid-6" for="lastName">Last Name</label>
+              <input class="grid-7" type="text" name="lastName" id="lastName" required/>
+              <label class="grid-8" for="company">Company</label>
+              <input class="grid-9" type="text" name="company" id="company" required/>
+              <label class="grid-10" for="message">Message</label>
+              <textarea
+                class="grid-11"
+                rows="5"
+                name="message"
+                id="message" required
+              ></textarea>
+              <input type="submit" value="Submit" class="grid-12"  id="submit" />
+            </form>
+          </div>
+          <div class="contact-cont"></div>
+        </section>
+        <div class="iframe">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14604.654771022751!2d86.4111651!3d23.7771846!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6a3d176d3ff99%3A0x8d254274a8f45556!2sS%20M%20Hydro%20blasting!5e0!3m2!1sen!2sin!4v1708868032913!5m2!1sen!2sin"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </main>
+      <!-- footer -->
+  
+      <footer>
+        <div class="footerMain intial-pad">
+          <div class="footerInfo">
+            <div class="logoCont">
+              <div class="logo">
+                <a href="index.html">
+                  <img src="./image/smLogo.png" alt="" />
+                  <span
+                    ><span class="hydro">Hydro</span><br /><span
+                      class="logoBlasting"
+                      >Blasting</span
+                    ></span
+                  >
+                </a>
+              </div>
+            </div>
+            <p>
+              SM Hydro Blastingis provides High Pressure Water Jetting for tasks
+              such as Hydrodemolition, Tank Cleaning, Tube Cleaning, Tube
+              replacement, Pipe Cleaning and ACC Fin Cooler Cleaning.
+            </p>
+            <ul>
+              <li>
+                <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="ri-twitter-x-line"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="ri-instagram-fill"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footerQuickLinks">
+            <h3>Quick Links</h3>
+            <hr class="hrstyle" />
+            <nav>
+              <ul class="quickLinks">
+                <li>
+                  <a href="./index.html">Home</a
+                  >
+                </li>
+                <li><a href="./about.html">About Us</a></li>
+                <li>
+                  <a href="./services.html">Services</a>
+                </li>
+                <li>
+                  <a href="./gallery.html">Image Gallery</a
+                  >
+                </li>
+                <li>
+                  <a href="./video.html">Video</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footerContactCont">
+            <h3>CONTACT US</h3>
+            <hr class="hrstyle" />
+            <div class="footerContact">
+              <div class="footerContactInner">
+                <div class="icon"><i class="ri-map-pin-line"></i></div>
+                <p>
+                  Matkuriya Homes, Flat No. - 604 (5th Floor), Katras Road Near
+                  Chhota Gurudwara, Katras Road, Dhanbad - 826001
+                </p>
+              </div>
+              <div class="footerContactInner">
+                <div class="icon"><i class="ri-mail-line"></i></div>
+                <p>smhydroblasting@yahoo.in, sagarmaharaj78@gmail.com</p>
+              </div>
+              <div class="footerContactInner">
+                <div class="icon"><i class="ri-phone-line"></i></div>
+                <p>+917903818319, +919431513609</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyRight">
+          Copyright &copy;
+          <span class="footerYear"></span> S.M. Hydro Blasting. All right
+          reserved
+        </div>
+      </footer>
+  
+      <!-- move to top link -->
+      <div class="moveToTop show-link">
+          <button class="btn">
+            <i class="ri-arrow-up-s-line"></i>
+          </button>
+      </div>
+  </body>
+</html>
